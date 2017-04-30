@@ -43,34 +43,3 @@ Orbit.prototype.show = function() {
 	ctx.arc(this.x, this.y, this.r, 0, 2*Math.PI)
 	ctx.stroke()	
 }
-
-
-
-	/*
-	//stroke style
-	ctx.strokeStyle = '#ffffff'
-	ctx.lineWidth = 2
-			
-	//the big circle
-	var r1 = 100
-	var x1 = 300
-	var y1 = 300
-	
-	ctx.beginPath()
-	ctx.arc(x1, y1, r1, 0, 2*Math.PI)
-	ctx.stroke()	
-	
-	//the medium circle
-	var r2 = r1 * 0.5
-	
-	var rsum = r1 + r2
-	
-	var x2 = x1 + rsum * Math.cos(angle)
-	var y2 = y1 + rsum * Math.sin(angle)
-	
-	ctx.beginPath()
-	ctx.arc(x2, y2, r2, 0, 2*Math.PI)		
-	ctx.stroke()
-	
-
-	*/
